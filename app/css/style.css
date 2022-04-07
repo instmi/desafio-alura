@@ -2,6 +2,7 @@
    --branco: #FFFFFF;
    --cinza: #667085;
    --cinza-medio: #3A404E;
+   --cinza-escuro: #101828;
    --vermelho: #8E2424;
 }
 html, * {
@@ -42,4 +43,23 @@ body {
 #link_cadastrar {
    background-color: var(--vermelho);
    color: var(--branco);
+}
+.cabecalho {
+   padding: 96px 0;
+   text-align: center;
+}
+.cabecalho_titulo {
+   color: var(--vermelho);
+   padding: 12px 0;
+}
+.cabecalho_subtitulo {
+   color: var(--cinza-escuro);
+   font-size: 48px;
+   padding: 12px 0 36px 0;
+}
+.cabecalho_descricao {
+   color: var(--cinza);
+   font-size: 20px;
+   margin: auto;
+   width: 791px;
 }

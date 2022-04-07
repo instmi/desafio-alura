@@ -1,0 +1,45 @@
+:root {
+   --branco: #FFFFFF;
+   --cinza: #667085;
+   --cinza-medio: #3A404E;
+   --vermelho: #8E2424;
+}
+html, * {
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+}
+body {
+   font-family: 'Inter', sans-serif;
+   font-size: 100%;
+   width: 100%;
+}
+.nav {
+   align-items: center;
+   display: flex;
+   justify-content: space-around;
+   padding: 1rem 0;
+}
+.nav_titulo {
+   display: flex;
+   align-items: center;
+}
+.titulo {
+   color: var(--cinza-medio);
+   font-size: 18px;
+   padding: 0 8px;
+}
+.link {
+   background: none;
+   border-radius: 8px;
+   color: var(--cinza);
+   display: inline-block;
+   font-weight: 500;
+   margin-right: 32px;
+   padding: 10px 18px;
+   text-decoration: none;
+}
+#link_cadastrar {
+   background-color: var(--vermelho);
+   color: var(--branco);
+}

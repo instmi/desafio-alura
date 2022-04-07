@@ -1,8 +1,8 @@
 :root {
+   --azul-escuro: #101828;
    --branco: #FFFFFF;
    --cinza: #667085;
    --cinza-medio: #3A404E;
-   --cinza-escuro: #101828;
    --vermelho: #8E2424;
 }
 html, * {
@@ -53,7 +53,7 @@ body {
    padding: 12px 0;
 }
 .cabecalho_subtitulo {
-   color: var(--cinza-escuro);
+   color: var(--azul-escuro);
    font-size: 48px;
    padding: 12px 0 36px 0;
 }
@@ -62,4 +62,26 @@ body {
    font-size: 20px;
    margin: auto;
    width: 791px;
+}
+.metricas {
+   display: flex;
+   padding: 0 96px;
+}
+.metricas_card {
+   margin: 0 10px;
+   width: 280px;
+}
+.metricas_titulo {
+   color: var(--vermelho);
+   font-size: 60px;
+   font-weight: 600;
+}
+.metricas_subtitulo {
+   color: var(--azul-escuro);
+   font-size: 18px;
+   padding: 12px 0 8px 0;
+}
+.metricas_descricao {
+   color: var(--cinza);
+   padding: 5px 0;
 }

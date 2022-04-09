@@ -4,6 +4,7 @@
    --cinza: #667085;
    --cinza-medio: #3A404E;
    --vermelho: #8E2424;
+   --vermelho-transparente: rgba(142, 36, 36, 0.050);
 }
 html, * {
    box-sizing: border-box;
@@ -65,7 +66,8 @@ body {
 }
 .metricas {
    display: flex;
-   padding: 0 96px;
+   justify-content: space-between;
+   padding: 0 96px 96px 96px;
 }
 .metricas_card {
    margin: 0 10px;
@@ -84,4 +86,31 @@ body {
 .metricas_descricao {
    color: var(--cinza);
    padding: 5px 0;
+}
+.vagas {
+   padding: 100px 80px;
+}
+.vagas_talentos {
+   padding: 0 12px;
+   text-align: center;
+}
+.talentos_titulo {
+   background-color: var(--vermelho-transparente);
+   border-radius: 16px;
+   color: var(--vermelho);
+   display: inline-block;
+   padding: 4px 12px;
+}
+.talentos_subtitulo {
+   color: var(--azul-escuro);
+   font-size: 44px;
+   padding: 20px 0;
+}
+.talentos_descricao {
+   color: var(--cinza);
+   font-size: 20px;
+}
+.talentos_img {
+   margin-top: 64px;
+   width: 1000px;
 }

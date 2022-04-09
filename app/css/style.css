@@ -91,6 +91,7 @@ body {
    padding: 100px 80px;
 }
 .vagas_talentos {
+   margin-bottom: 64px;
    padding: 0 12px;
    text-align: center;
 }
@@ -113,4 +114,31 @@ body {
 .talentos_img {
    margin-top: 64px;
    width: 1000px;
+}
+.vagas_disponivel {
+   padding: 0 256px;
+}
+.vaga {
+   margin-bottom: 64px;
+}
+.vaga_titulo {
+   color: var(--azul-escuro);
+   font-size: 20px;
+}
+.vaga_card {
+   border: 1px solid #EAECF0;
+   border-radius: 16px;
+   cursor: pointer;
+   margin: 32px 0;
+   padding: 24px 24px 28px;
+}
+.card_titulo {
+   color: var(--azul-escuro);
+   font-size: 16px;
+   margin-bottom: 32px;
+}
+.card_descricao {
+   color: var(--cinza);
+   display: inline-block;
+   margin-right: 24px;
 }

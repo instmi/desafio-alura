@@ -88,7 +88,7 @@ body {
    padding: 5px 0;
 }
 .vagas {
-   padding: 100px 80px;
+   padding: 96px 80px 0 80px;
 }
 .vagas_talentos {
    margin-bottom: 64px;
@@ -141,4 +141,32 @@ body {
    color: var(--cinza);
    display: inline-block;
    margin-right: 24px;
+}
+.depoimentos {
+   padding: 0 80px;
+   background-color: var(--vermelho-transparente);
+   border-radius: 16px;
+   margin: 0 80px;
+   padding: 64px 32px;
+   text-align: center;   
+}
+.depoimentos_titulo {
+   color: var(--vermelho);
+}
+.depoimentos_quote {
+   color: var(--azul-escuro);
+   font-size: 36px;
+   font-weight: 500;
+   padding: 16px 0;
+}
+.depoimentos_img {
+   padding: 16px 0;
+}
+.depoimentos_nome {
+   color: var(--azul-escuro);
+   font-weight: 500;
+}
+.depoimentos_profissao {
+   color: var(--cinza);
+   font-size: 14px;
 }
